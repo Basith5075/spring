@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+ 
+
+	<!-- To enable annotations -->
+	<context:annotation-config />
+
+<!--  <bean class = "com.springcore.lifecycle.School" name = "school" init-method="init" destroy-method="destroy">
+ 
+ 	<constructor-arg name ="student" value = "Saba Tabassum" />
+ 
+ </bean>  -->
+ 
+<!--   <bean class = "com.springcore.lifecycle.Tuition" name = "tuition">
+ 
+ 	<constructor-arg name ="tuitionFee" value = "5000" />
+ 
+ </bean>  -->
+  
+    <bean class = "com.springcore.lifecycle.Bus" name = "bus">
+ 
+ 	<constructor-arg value = "250" />
+ 
+ </bean> 
+  
+ 
+    
+ </beans>
